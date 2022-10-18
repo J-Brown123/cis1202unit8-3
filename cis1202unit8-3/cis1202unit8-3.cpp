@@ -6,10 +6,17 @@
 
 using namespace std;
 
-//Function Prototypes
-
 int main()
 {
 
 	return 0;
+}
+
+template <typename T>
+T half(T num)
+{
+	T newNum;
+	newNum = num / 2;
+
+	return newNum;
 }

@@ -49,6 +49,6 @@ T half(T num)
 int half(int num)
 {
 	int newNum;
-	newNum = round(static_cast<double>(newNum / 2.00));
+	newNum = round(static_cast<double>(num / 2.00));
 	return newNum;
 }
